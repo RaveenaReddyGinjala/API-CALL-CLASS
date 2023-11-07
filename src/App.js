@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
-import axios from "axios";
-import { MagnifyingGlass, RotatingLines } from "react-loader-spinner";
+// import axios from "axios";
+import { RotatingLines } from "react-loader-spinner";
 
 export class App extends Component {
   constructor(props) {
