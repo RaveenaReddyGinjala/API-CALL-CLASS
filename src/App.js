@@ -28,6 +28,7 @@ export class App extends Component {
     fetch("https://jsonplaceholder.typicode.com/todos")
       .then((response) => response.json())
       .then((data) => {
+        console.log(data);
         this.setState({ data: data });
         this.setState({ filtereddata: data });
         this.setState({ loading: false });
