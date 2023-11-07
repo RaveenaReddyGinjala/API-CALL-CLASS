@@ -88,7 +88,7 @@ export class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>API CALL</h1>
+        <h1>API CLASS CALL</h1>
         {this.state.loading ? (
           <>
             <RotatingLines
